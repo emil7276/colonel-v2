@@ -26,9 +26,9 @@ jobs:
         with:
           flutter-version: '3.29.2'
           channel: stable
-          
+
       - name: Create Android project
-        run: flutter create . --platforms android
+        run: flutter create . --platforms android --project-name colonel_v2
 
       - name: Flutter pub get
         run: flutter pub get
